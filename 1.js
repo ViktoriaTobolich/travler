@@ -1,0 +1,9 @@
+$(function(){
+  $('.beefburger').on('click',function(){
+    $('.mob_menu').slideToggle(350,function(){
+      if($(this).css('display')==='none'){
+        $(this).removeAttr('style');
+      }
+    });
+  });
+});
